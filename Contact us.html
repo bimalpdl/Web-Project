@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us </title>
+    <!-- stylesheets for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"><!-- for social link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Section wrapper containing contact information and contact form -->
+    <section id="section-wrapper">
+        <div class="box-wrapper">
+            <!-- Contact information section -->
+            <div class="info-wrap">
+                <h2 class="info-title">Contact Information</h2>
+                <h3 class="info-sub-title">If you have any Queries about the food let we know to fill up the form</h3>
+                 <!-- List of contact details -->
+                <ul class="info-details">
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <span>Address:</span> <a href="https://www.google.com/maps/place/Star+Foodland+%26+Banquet/@27.6870613,85.2956754,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb1844001d944f:0x18f26ad4ca491b4c!8m2!3d27.6870566!4d85.2982503!16s%2Fg%2F11hcb_hhp5?entry=ttu">TU Rd 14, Kathmandu 44600</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Phone:</span> <a href="tel:+977-9816069740">9816069740</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        <span>Email:</span> <a href="mail:FoodHub@gmail.com">FoodHub@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-globe"></i>
+                        <span>Website:</span> <a href="#">WWW.FoodHub.com.np</a>
+                    </li>
+                </ul>
+                 <!-- Social icons section -->
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-snapchat"></i></a></li>
+                </ul>
+            </div>
+             <!-- Contact form section -->
+            <div class="form-wrap">
+                <form action="#" method="POST">
+                    <h2 class="form-title">Send us a message</h2>
+                    <div class="form-fields">
+                        <div class="form-group">
+                            <input type="text" class="name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="lname" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="phone" placeholder="Phone Number" required pattern="[0-9]{10}>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="" placeholder="Write your message.." required></textarea>
+                        </div>
+                    </div>
+                     <!-- Submit button for sending the message -->
+                    <input type="submit" value="Send Message" class="submit-button">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
